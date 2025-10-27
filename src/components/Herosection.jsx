@@ -1,19 +1,14 @@
-import React from 'react'
-import img1 from '../assets/home-bg.jpg';
+import React from 'react';
 import './Herosection.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import brud from '../assets/brud.png';
-
+import heroBg from '../assets/foodbg1.jpg'; // make sure this path is correct
 
 const Herosection = () => {
   return (
-    <>
-    <div className='img-div'>
-     <img className='brud' src={brud} alt="" />
-     <img className='imgbg' src={img1} alt="" />
-     </div>
-    </>
-  )
-}
+    <div
+      className="img-div"
+      style={{ backgroundImage: `url(${heroBg})` }}
+    ></div>
+  );
+};
 
 export default Herosection;

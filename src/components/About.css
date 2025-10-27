@@ -5,12 +5,14 @@
     gap: 20px;
     min-height: 100vh;
     color: white;
+      background: #111;
     padding: 20px;
 }
 .aboutleftpart img{
-  width: 400px;
-  height: 400px;
-  object-fit: fill;
+      width: 415px;
+    height: 400px;
+    object-fit: fill;
+    padding: 20px;
 }
 .aboutleftpart{
     width: 50%;
